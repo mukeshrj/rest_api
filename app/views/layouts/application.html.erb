@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= link_to_if(user_signed_in?, "SignOut", destroy_user_session_path, method: "DELETE") {}%>
 <%= yield %>
 
 </body>

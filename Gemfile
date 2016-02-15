@@ -44,3 +44,5 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem "devise"
+gem "byebug"
+gem 'simple_token_authentication', '~> 1.0' # see semver.org
